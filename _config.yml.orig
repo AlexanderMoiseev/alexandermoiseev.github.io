@@ -1,9 +1,0 @@
-name: robototechnika
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-<<<<<<< HEAD
-baseurl: /robototechnika # the subpath of your site, e.g. /blog
-=======
-
-theme: jekyll-theme-cayman
->>>>>>> c4acff96ce31c664842f1b5d8527e4e2f174c503
