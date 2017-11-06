@@ -1,7 +1,7 @@
 name: robototechnika
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-baseurl: /robototechnika # the subpath of your site, e.g. /blog
+#baseurl: /robototechnika # the subpath of your site, e.g. /blog
 
 #theme: jekyll-theme-cayman
 
