@@ -4,4 +4,10 @@ permalink: /blog/:year/:month/:day/:title
 baseurl: / # the subpath of your site, e.g. /blog
 
 #theme: jekyll-theme-cayman
+#
+# defaults:
+#   - scope:
+#       path: "assets/img"
+#     values:
+#       image: true
 

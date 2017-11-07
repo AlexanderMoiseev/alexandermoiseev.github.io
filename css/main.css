@@ -4,6 +4,10 @@ a {
 	text-decoration: none; color: #999; 
 }
 
+.logo {
+		background-image: url(../assets/img/logo.jpg)
+}
+
 .underline {
 	border-bottom: 2px solid currentColor;
 }
