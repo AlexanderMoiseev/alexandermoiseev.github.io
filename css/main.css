@@ -1,26 +1,41 @@
-body { margin: 60px auto; width: 70%; }
+/*body { margin: 60px auto; width: 70%; }*/
 
 a { 
 	text-decoration: none; color: #999; 
 }
 
 .logo {
-		background-image: url(../assets/img/logo.jpg)
+	display:inline;
+	vertical-align:center;
 }
 
 .underline {
 	border-bottom: 2px solid currentColor;
 }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+p, ul { font-size: 1.5em;
+	line-height: 1.4em;
+	color: #333;
+}
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1,h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+h4 { font-size: 1.9em; }*/
 
-nav a:hover { 
+.nav {
+	list-style:none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display:inline-block;
+	padding: 0 25px 0 25px;
+	float:right;
+}
+.nav > li > a {
 border-bottom: 2px solid currentColor;
 	text-decoration-color:blue;
 	text-decoration-style:solid;
@@ -28,34 +43,24 @@ border-bottom: 2px solid currentColor;
 
 }
 
-nav ul, footer ul { 
-	font-size: 1em; 
-	display: flex; 
-	justify-content: flex-end;
-	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-	padding: 0px; 
-	list-style: none; 
-	font-weight: bold; 
-}
-
-nav ul li, footer ul li { 
-	
-	margin-right: 20px; 
-	
-	
+.nav > li > a:hover {
+border-bottom: 2px solid currentColor;
+	text-decoration-color:blue;
+	text-decoration-style:solid;
+	text-underline-position: under;
 
 }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+a.logo {
+	color:red;
+	float:left;
+}
+
+
+/*footer { border-top: 1px solid #d5d5d5; font-size: .8em; }*/
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+/*ul.posts { margin: 20px auto 40px; font-size: 1.5em; }*/
+/*ul.posts li { list-style: none; }*/
 
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
