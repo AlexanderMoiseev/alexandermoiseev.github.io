@@ -5,4 +5,6 @@ date: 2014-04-30
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts
-<img scr="/assets/img/logo.jpg" height="30" width="150" /> 
+
+
+<img src="/assets/img/MainImage.jpg" height="300" width="600" />
