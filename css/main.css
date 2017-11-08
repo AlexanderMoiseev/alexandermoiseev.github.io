@@ -1,7 +1,17 @@
-body { margin: 20px auto; width: 90%; }
+body { margin: 0px auto; width: 100%; }
 
+.blurb {
+/*	margin:100px;*/
+}
 a { 
-	text-decoration: none; color: #999; 
+	text-decoration: none; 
+	color: white; 
+}
+
+
+.description-about {
+		 font-family:  "Montserrat", sans-serif;
+		 font-size:1rem;
 }
 
 .logo {
@@ -10,19 +20,20 @@ a {
 }
 
 .underline {
-	border-bottom: 2px solid currentColor;
+/*	border-bottom: 2px solid currentColor;*/
 }
 
-p, ul { font-size: 1.5em;
-	line-height: 1.4em;
-	color: #333;
+p, ul { 
+	font-size: 1.3em;
+	line-height: 2em;
+/*	color: #333;*/
 }
 
 h1,h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
+/*h2 { font-size: 2.7em; }*/
 h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }*/
+h4 { font-size: 1.9em; }
 
 .nav {
 	list-style:none;
@@ -48,7 +59,45 @@ a.logo {
 	float:left;
 }
 
+.seperator-bottom:after {
+    content: '';
+    display: block;
+    width: 3.75em;
+    height: 0.125em;
+    background: #ff4c2e;
+    margin: 1.0625em auto 2.625em;
+}
 
+.heading-font {
+    font-family: 'Sans-Serif', 'Arial';
+}
+.zeta {
+	margin-top:20px;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.condensed-font {
+	width:80%; 
+	margin:20px auto; 
+}
+
+.gamma {
+    font-size: 42px;
+    font-size: 2.625rem;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.uppercase {
+    text-transform: uppercase;
+}
 /*footer { border-top: 1px solid #d5d5d5; font-size: .8em; }*/
 
 /* Blog */
