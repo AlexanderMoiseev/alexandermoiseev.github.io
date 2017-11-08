@@ -1,4 +1,4 @@
-/*body { margin: 60px auto; width: 70%; }*/
+body { margin: 20px auto; width: 90%; }
 
 a { 
 	text-decoration: none; color: #999; 
@@ -35,19 +35,11 @@ h4 { font-size: 1.9em; }*/
 	padding: 0 25px 0 25px;
 	float:right;
 }
-.nav > li > a {
-border-bottom: 2px solid currentColor;
-	text-decoration-color:blue;
-	text-decoration-style:solid;
-	text-underline-position: under;
-
-}
-
 .nav > li > a:hover {
 border-bottom: 2px solid currentColor;
-	text-decoration-color:blue;
+/*	text-decoration-color:blue;
 	text-decoration-style:solid;
-	text-underline-position: under;
+	text-underline-position: under;*/
 
 }
 
