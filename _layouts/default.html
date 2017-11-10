@@ -3,10 +3,14 @@
   <head>
     <title>{{ page.title }}</title>
     
-	
+	<script>
+			var htmlEl=document.getElementsByTagName('html')[0];if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure","1.1")){htmlEl.className+=' svg';}
+			WebFontConfig={google:{families:['Karla:400,700,400italic,700italic:latin','Montserrat:400,700:latin']}};(function(){var e=document.createElement("script");e.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";e.type="text/javascript";e.async="true";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+		</script>
 
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
+  <!-- <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat"> -->
   </head>
 
 
@@ -17,8 +21,8 @@
 
 		<div style="height:100px; border-bottom:1px solid #000; background:red;">
 			<ul class="nav">
-				<!-- <a class="logo" href="/"><img src="/assets/img/logo.jpg" height="100" width="200" /> </a> -->
-								<a  href="/"><span  >TOZ  robototechnika </span> </a>
+				<a class="logo" href="/"><img src="/assets/img/logo.jpg" height="70" width="140" /> </a>
+								<!-- <a  href="/"><div style="float:left;"><span  >TOZ <br/> robototechnika </span></div> </a> -->
 								
 				<li><a href="/">О нас</a><li>
 				<li><a href="/">Проекты</a><li>
