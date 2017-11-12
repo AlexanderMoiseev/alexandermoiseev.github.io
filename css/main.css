@@ -1,6 +1,7 @@
-/*#banner {
+#banner {
+	display:block;
 	width:100%;
-	height:500px;
+	height:100%;
 	position:fixed;
 
 }
@@ -8,9 +9,9 @@
 #main-content {
 	width:100%;
 	position:relative;
-	top:500px;
+	top:550px;
 	background:white;
-}*/
+}
 
 body { 
 	margin:100px 0 0 0; 
