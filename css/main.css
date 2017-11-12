@@ -6,6 +6,26 @@ body {
 /*	background: #EEEEEE;*/
 }
 
+.projects-button {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#ff4c2e;
+	color:white;
+	padding:1.25em 1.25em;
+    font-family:  "Montserrat", sans-serif;
+    font-size:1rem;
+ font-size: 1.2em;
+ 
+	display:block;
+
+	height:27px;
+
+	width:40%;
+/*	height:200px;
+	width:400px;*/
+	text-align:center;
+}
 .header {
 	opacity:0.9;
 	z-index:999;
