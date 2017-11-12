@@ -53,7 +53,8 @@ body {
 
 /*	margin:100px;*/
 }
-a { 
+
+.nav a { 
 	text-decoration: none; 
 	color: white; 
 }
@@ -347,15 +348,15 @@ h2 {
  
  #slider figure img {
  	width: 100%;
-/* 	float: left;*/
-/*    -moz-transition: all 5s ease-out;
+ 	float: left;
+    -moz-transition: all 5s ease-out;
     -o-transition: all 5s ease-out;
-    -webkit-transition: all 5s ease-out;*/
+    -webkit-transition: all 5s ease-out;
  }
  #slider figure img:hover {
-    /* -webkit-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);*/
+     -o-transform: scale(1.1);
  }
  #slider figure {
  	position: relative;
