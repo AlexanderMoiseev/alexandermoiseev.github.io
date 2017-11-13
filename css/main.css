@@ -6,6 +6,40 @@
 
 }
 
+.column {
+    flex: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    /*for demo purposes only */
+/*    background: #f2f2f2;*/
+/*    border: 1px solid white;*/
+    box-sizing: border-box;
+}
+
+.column-one {
+    order: 1;
+}
+.column-two {
+    order: 2;
+}
+.column-three {
+    order: 3;
+}
+
+
+.footer {
+	 display: flex;
+	 
+	margin-top:80px;
+	
+	height:400px;
+	background:black;
+	 border-top: 1px solid #d5d5d5; 
+	 font-size: .8em; 
+/*	 display:block;*/
+ }
+
 #main-content {
 	width:100%;
 	position:relative;
@@ -69,10 +103,6 @@ body {
 /*	margin:100px;*/
 }
 
-.nav a { 
-	text-decoration: none; 
-	color: white; 
-}
 
 
 .description-about {
@@ -106,6 +136,20 @@ h4 { font-size: 1.9em; }
 	list-style:none;
 /*	text-align: center;*/
 /*	padding: 20px 0 20px 0;*/
+}
+
+.nav a { 
+	text-decoration: none; 
+	color: white; 
+}
+
+
+.footer-nav a { 
+	text-decoration: none; 
+	color: white; 
+	text-transform:uppercase;
+	font-weight:700;
+	font-family: 'Montserrat', serif;
 }
 
 .nav > li {
@@ -252,7 +296,6 @@ h2 {
 	  -o-transform: scale(1.1);
   }*/
 
-/*footer { border-top: 1px solid #d5d5d5; font-size: .8em; }*/
 
 /* Blog */
 /*ul.posts { margin: 20px auto 40px; font-size: 1.5em; }*/
