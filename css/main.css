@@ -185,11 +185,14 @@ h4 { font-size: 1.9em; }
 
 
 .nav {
-	display:flex;
-	-webkit-flex-wrap: wrap;
-	  flex-wrap:         wrap;
-	  flex-direction:         column; 
-
+    display: -webkit-flex;
+       display: flex;
+       -webkit-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-flex-direction: column;
+       flex-direction: column;
+	   
+	
 /*	  flex-direction:         row;*/
 	list-style:none;
 /*	text-align: center;*/
