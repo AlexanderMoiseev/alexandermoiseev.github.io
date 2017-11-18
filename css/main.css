@@ -164,7 +164,7 @@ h4 { font-size: 1.9em; }
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
     .nav { -webkit-flex-direction: column;
        flex-direction: column;
    }
@@ -174,7 +174,7 @@ h4 { font-size: 1.9em; }
 		}
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 550px) {
     .nav { -webkit-flex-direction: row;
        flex-direction: row; 
    }
@@ -191,8 +191,8 @@ h4 { font-size: 1.9em; }
 .nav {
     display: -webkit-flex;
        display: flex;
-/*       -webkit-flex-wrap: wrap;
-       flex-wrap: wrap;*/
+       -webkit-flex-wrap: wrap;
+       flex-wrap: wrap;
    /*    -webkit-flex-direction: column;
        flex-direction: column;*/
 	   
