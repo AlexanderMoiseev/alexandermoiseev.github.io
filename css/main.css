@@ -26,15 +26,25 @@
 .column-three {
     order: 3;
 }
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+html{
+  position:relative; 
+  min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
+.container{
+  margin-bottom:100px;/* Height of footer*/
+} 
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    background:#ccc;
 }
 
 
@@ -48,11 +58,7 @@ footer {
 
 body { 
 	margin:100px 0 0 0; 
-	width: 100%; 
-/*     min-height:100%;*/
-	   position: relative;
-/*	background: #DADFE1;*/
-/*	background: #EEEEEE;*/
+	
 }
 
 .projects-button {

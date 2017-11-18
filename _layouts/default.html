@@ -39,7 +39,7 @@
 		</div>
 
 
-<footer >This footer will always be positioned adsdsdsdsdsadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtdsdsdsdt the bottom of the page, but <strong>not fixed</strong>.</footer>
+<footer class="footer">This footer will always be positioned adsdsdsdsdsadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtadsdsdsdsdsdsdsdsdtdsdsdsdt the bottom of the page, but <strong>not fixed</strong>.</footer>
   
 
 
@@ -63,7 +63,13 @@ var sadsd = $("#slider figure img").height();
      							  var res = bannerHeight ;
 								  // alert($("#main-content").css("top"));
      						   $("#main-content").css({top: sadsd});
-							   								  // alert($("#main-content").css("top"));
+							   
+							   
+							   // alert($(".footer").css("bottom"));
+							   
+							   $(".footer").css({bottom: 0-sadsd });
+							    // alert($(".footer").css("bottom"));
+							   								 
      	   }
 	</script>
   </body>
