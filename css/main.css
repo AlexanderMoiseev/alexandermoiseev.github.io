@@ -191,8 +191,8 @@ h4 { font-size: 1.9em; }
 .nav {
     display: -webkit-flex;
        display: flex;
-       -webkit-flex-wrap: wrap;
-       flex-wrap: wrap;
+/*       -webkit-flex-wrap: wrap;
+       flex-wrap: wrap;*/
    /*    -webkit-flex-direction: column;
        flex-direction: column;*/
 	   
