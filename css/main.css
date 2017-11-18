@@ -36,14 +36,14 @@ html,body{
   padding:0;
 }
 .container{
-  margin-bottom:100px;/* Height of footer*/
+  margin-bottom:400px;/* Height of footer*/
 } 
 .footer{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height:100px;
+    height:400px;
     background:#ccc;
 }
 
