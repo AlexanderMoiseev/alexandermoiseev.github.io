@@ -47,7 +47,7 @@ html{
 	 position: absolute;
 	display:flex;
 	margin-top:80px;
-	height:400px;
+	height:300px;
 	
  background:black;
    bottom: 0;
@@ -63,12 +63,13 @@ html,body{
   padding:0;
 }
 .container{
-  margin-bottom:400px;/* Height of footer*/
+/*	padding-bottom:100px;*/
+  margin-bottom:300px;/* Height of footer*/
 } 
 
 
 #main-content {
-/*	padding-bottom:500px;*/
+/*	padding-bottom:100px;*/
 	width:100%;
 	position:relative;
 /*	top:550px;*/
