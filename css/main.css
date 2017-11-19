@@ -167,8 +167,8 @@ h4 { font-size: 1.9em; }
 @media all and (max-width: 550px) {
     .nav { -webkit-flex-direction: column;
        flex-direction: column;
-   }
-		.header { height:200px; }
+	   }
+	   .header { height:200px; }
 		body {
 			margin:200px 0 0 0;
 		}
